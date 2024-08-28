@@ -1,0 +1,85 @@
+body{
+    background: #CFD4BD; /*Cor de fundo da tela*/
+}
+
+#local-Atual {
+    display: inline-block;
+    padding: 10px 20px ;
+    color: #545A4D;
+    font-weight: bold;
+}
+
+.retornar {
+    color: #545A4D; 
+    display: inline-block;
+    text-align: left;
+    padding: 1px  10px;
+    margin: 5px;   
+    border-radius: 30px;
+    background: none ;
+}
+
+/*  "margin e padding=0" Reseta margens padrõesdos navegadores */
+/*box-sizing altera a forma responsiva e font-family é a fonte escolhida */
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* grid é a caixa principal com todas as caixas dentro, melhora a formatação, possibilitando divisões em coluna se necessario, formata um conjunto*/
+.grid {
+    max-width: 700px; /*melhor resolução e responsividade*/
+    margin: 50px auto;
+    padding: 20px; /*Enquandra as bordas dentro da box principal*/
+    background-color: #ECF2D7;
+    border-radius: 10px; /*Quebra os cantos suavizando as bordas*/
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5); /*Sombreamento*/
+}
+
+/* Título da pagina */
+#Cadastro-Fun {
+    text-align: center; 
+    font-size: 24px;
+    margin-bottom: 20px; 
+    color: #545A4D;
+}
+
+
+/* Estilo dos campos de entrada*/
+.form-group label {  /*Descrição dos campo*/
+    display: block; /*Faz a caixa se enquadrar na largura disponivel*/
+    margin-bottom: 5px; /*Espaçamento entre os texto*/
+    color: #545A4D; 
+    font-weight: bold; /*Deixa o texto em negrito*/
+}
+
+/* Estilo dos campos de imput*/
+.form-group input {
+    width: 100%; /*Edita as caixa no comprimento maximo informada*/
+    padding: 10px;/*Edita largura das caixas*/
+    margin-bottom: 20px;/*Espaçamento entre as letras das caixas*/
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+    font-size: 16px; /*Tamanho da fonte*/
+}
+
+/* botão de envio */
+.btn-submit {
+    width: 100%; /*Botão oculpa toda largura da caixa principal*/
+    padding: 10px; 
+    background-color: #555a4b; /*Cor de fundo */
+    color: #f5f5f5;/*Cor da letra*/
+    border: none; /*Removedor de bordas*/
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;/*Altera o cursor de seta para mão ao passar sobre um botão*/
+    transition: background-color 0.3s ease; /*Tempo para a mudança de cor, boas praticas*/
+    font-weight: bold;
+}
+
+/* Efeito ao passar o mouse sobre o botão */
+.btn-submit:hover {
+    background-color: #4cae4c;/*Altera a cor de fundo do botão ao passar o mause*/
+}
