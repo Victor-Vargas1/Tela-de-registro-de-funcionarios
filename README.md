@@ -1,7 +1,7 @@
 <h1>Registro de Funcionário</h1>
 Este projeto tem como objetivo criar uma interface de registro de funcionário utilizando HTML e CSS.
 
-<h1>Descrição</h1>
+<h2>Descrição</h2>
 Estou atualmente desenvolvendo este projeto para aprimorar minhas habilidades em HTML e CSS. O registro de funcionário está em fase de desenvolvimento, e estou trabalhando na modificação de alguns campos. A próxima etapa será a integração com um banco de dados para que todos os registros possam ser armazenados de forma segura e eficiente.
 
 <h2>Funcionalidades</h2>
